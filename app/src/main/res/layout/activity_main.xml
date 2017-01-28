@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thanksforeverything.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chester"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="THANKS FOR EVERYTHING..."
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="20dp"
+        android:id="@+id/textView"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="I HAD A WONDERFUL TIME!"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/background_light"
+        android:layout_margin="20dp"
+        android:id="@+id/textView2"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>
